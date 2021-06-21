@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
+.card .row {
+  margin-bottom: 0;
+}
+.rounded {
+  border-radius: 10px;
+}
+.ng-touched .ng-invalid:visited {
+  border-bottom: 1px solid #f44336;
+  box-shadow: 0 1px 0 0 #f44336;
+}
+.error_row {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 0;
+}
+.user-links,
+.user-links:hover,
+.user-links:focus {
+  background: transparent;
+  box-shadow: none;
+  padding: 0 5px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+.active-link {
+  border-bottom: 3px #1976d2 solid;
+}
+.text-center {
+  text-align: center;
+}
+.img {
+  position: relative;
+  width: 64%;
+  /* height: auto; */
+  margin-left: auto;
+  display: block;
+  /* margin: auto !important; */
+  margin-right: auto;
+}
